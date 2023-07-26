@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icons {
+  font-size: 35px !important;
+}
+
+.chart {
+  width: 100% !important;
+  height: 350px !important;
+}
+
+.gradient {
+  background: rgb(2, 0, 36);
+  width: 100% !important;
+  height: 120px !important;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.gradient_1 {
+  width: 100% !important;
+  height: 120px !important;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(255, 252, 0, 1) 100%
+  );
+}
+
+.gradient_2 {
+  width: 100% !important;
+  height: 120px !important;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(255, 59, 0, 1) 100%
+  );
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
+.removeNav{
+  display: none;
+}
+.removesidebar{
+  display: none;
+}
+
+
